@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="script.js" defer></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
+    <title>Kockica</title>
+</head>
+
+<body id="pocetna">
+
+    <nav class="navBar">
+        <label>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <div class="slika">
+            <a class="imgLink" href="index.html">
+                <img class="logo_slika" src="img/Logo/logo_kockica.png">
+            </a>
+
+        </div>
+        
+        <div class="wrapper">
+
+
+            <div class="linkovi">
+                <a href="#pocetna">Pocetna</a>
+                <a href="#home">O meni</a>
+                <a href="#proizvodi">Proizvodi</a>
+                <a href="#galerija">Klijenti</a>
+                <a href="#kontakt">Kontakt</a>
+            </div>
+           
+        </div>
+    </nav>
+
+
+
+    <div class="container2">
+
+        <img class="home_slika" src="img/Logo/kockica_i_lampa.png">
+        <div class="container3">
+            <p class="text1">Shop unikatnih proizvoda</p>
+            <div class="buttonsdiv">
+                <a href="#proizvodi"><button class="shop_button">
+
+                        <p class="shop_button_txt">Katalog</p>
+                    </button></a>
+
+            </div>
+        </div>
+    </div>
+    
+    <main>
+        <section id="home" class="home">
+            <div class="podjela_lijevo_desno">
+                
+                <div class="podjela_lijevo">
+        
+            
+
+                        <h2>O meni</h2>
+                
+            
+                        <div class="o_nama_tekst">
+            
+                            
+                            <p class="tekst4">Moje ime je Amer Sarajlija, dolazim iz Velike Kladuše i vlasnik sam stranice Kockica. Već nekoliko godina pravim razne predmete od drveta uz pomoć mašte i CNC mašina. Prije tri godine sam nabavio malu niskobudžetnu CNC mašinu koja mi je služila za učenje osnovnih vještina potrebnih za posao sa kojim se bavim.</p>
+                            <p class="novi_red"> Proizvode koje kreiram su većinom presonalizirani pokloni, koje dizajniram i izrađujem u skladu sa nadolazećim događajima kao 8. mart, vjerski praznici i slično. Ideje također crpim sa interneta i raznih izvora na društvenim mrežama. Vidim svoju budućnost u svom radu i u BiH, i daću sve od sebe da tu i ostanem.</p>
+                
+                        </div>
+                 </div>
+                  
+                  
+                  <div class="podjela_desno">
+            
+                    <img class="slika1" src="img/O nama slike/amer.png" alt="">
+                   
+                    
+                  </div>
+            </div>
+
+        </section>
+
+        <section class="proizvodi1">
+            <div id="proizvodi">
+                <h1>Proizvodi</h1>
+                <div id="container" class="product-container">
+                    
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="img/Proizvodi/slovarica.jpg" class="productspace" alt="">
+                           <a href="img/Proizvodi/slovarica.jpg" target="_blank"><button id="naruci" class="card-btn" onclick="myNewFunction('img/Proizvodi/slovarica.jpg')">Otvori</button></a> 
+                        </div>
+                        <div class="product-info">
+
+                            <h2 class="productname" id="dodaj1">Slovarica</h2>
+                            <h2 class="actual-price">45KM</h2>
+                            <h2 class="price">35KM</h2>
+                            <p class="productdes">Drvena slovarica Abeceda</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="img/Proizvodi/3D_led_lampa.jpg" class="productspace" alt="">
+                           <a href="img/Proizvodi/3D_led_lampa.jpg" target="_blank"> <button id="naruci" class="card-btn" onclick="">Otvori</button></a>
+                        </div>
+                        <div class="product-info">
+
+                            <h2 class="productname" id="dodaj2">3D Lampa</h2>
+                            <h2 class="actual-price">56KM</h2>
+                            <h2 class="price">49KM</h2>
+                            <p class="productdes">3D lampe raznih oblika</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                           <img src="img/Proizvodi/CoD_lampa.jpg" class="productspace" alt="">
+                           <a href="img/Proizvodi/CoD_lampa.jpg" target="_blank">   <button id="naruci" class="card-btn" onclick="">Otvori</button></a>
+                        </div>
+                        <div class="product-info">
+
+                            <h2 class="productname" id="dodaj3">3D Lampa COD</h2>
+                            <h2 class="actual-price">56KM</h2>
+                            <h2 class="price">49KM</h2>
+                            <p class="productdes">3D lampe raznih oblika</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="img/Proizvodi/kasica.jpg" class="productspace" alt="">
+                        <a href="img/Proizvodi/kasica.jpg" target="_blank">    <button id="naruci" class="card-btn" onclick="">Otvori</button></a>
+                        </div>
+                        <div class="product-info">
+
+                            <h2 class="productname" id="dodaj4">Kasica s imenima</h2>
+                            <h2 class="actual-price">30KM</h2>
+                            <h2 class="price">25KM</h2>
+                            <p class="productdes">Kasice raznih oblika, sa imenima ili porukama po želji </p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="img/Proizvodi/luster1.jpg" class="productspace" alt="">
+                         <a href="img/Proizvodi/luster1.jpg" target="_blank">   <button id="naruci" class="card-btn" onclick="">Otvori</button></a>
+                        </div>
+                        <div class="product-info">
+
+                            <h2 class="productname" id="dodaj5">Lusteri</h2>
+                            <h2 class="actual-price">70KM</h2>
+                            <h2 class="price">59KM</h2>
+                            <p class="productdes">Drveni lusteri raznih oblika</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="img/Proizvodi/oblak-lampa.jpg" class="productspace" alt="">
+                           <a href="img/Proizvodi/oblak-lampa.jpg" target="_blank"> <button id="naruci" class="card-btn" onclick="">Otvori</button></a>
+                        </div>
+                        <div class="product-info">
+
+                            <h2 class="productname" id="dodaj6">Zidna lampa "Oblak"</h2>
+                            <h2 class="actual-price">50KM</h2>
+                            <h2 class="price">40KM</h2>
+                           <p class="productdes">Zidne lampe u raznim oblicima i imenima</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="img/Proizvodi/privjesak3.jpg" class="productspace" alt="">
+                            <a href="img/Proizvodi/privjesak3.jpg" target="_blank">   <button id="naruci" class="card-btn" onclick="">Otvori</button></a>
+                        </div>
+                        <div class="product-info">
+
+                            <h2 class="productname" id="dodaj7">Privjesci za ključeve</h2>
+                            <h2 class="actual-price">4KM</h2>
+                            <h2 class="price">1KM</h2>
+                            <p class="productdes">Privjesci za maloprodaju i veleprodaju po narudžbi</p>
+                        </div>
+
+                    </div>
+                    <button class="scrollBtn1" id="slideLeft" onclick="slide('left')" type="button"><i class="fas fa-arrow-left"></i></button>
+
+                    <button class="scrollBtn2" id="slideRight" onclick="slide('right')" type="button"><i class="fas fa-arrow-right"></i></button>
+        
+                </div>
+               
+            </div>
+            </div>
+            
+        </section>
+        <section class="gal">
+
+            <div id="galerija">
+                <h1>Drugi o nama</h1>
+                <div class="klijent">
+                    <div class="klijent1">
+                        <p class="misljenje">Vrhunski posao! Pohvale za profesionalnost i uslugu. I više nego kvalitetno. Sve preporuke sa moje strane!</p>
+                        <h3>A. Aldžić</h3>
+                        <img src="img/Ikone/star.png" alt="">
+                    </div>
+                    <div class=" klijent2">
+                        <p class="misljenje">Fenomenalna stranica. Proizvodi su viskokvalitetni i jako lijepi. Sve pohvale za kvalitetu i izradu proizvoda! </p>
+                        <h3>A. Felić</h3>
+                        <img src="img/Ikone/star.png" alt="">
+                    </div>
+                    <div class=" klijent3">
+                        <p class="misljenje">Ljudi rade vrhunski. Narucio sam proizvod, odradjen je profesionalno i više nego povoljno. Preporuka!</p>
+                        <h3>E. Hamzić</h3>
+                        <img src="img/Ikone/star.png" alt="">
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+    </main>
+
+    <footer id="kontakt" class="footer_sve">
+
+        <div class="footer_lijevo">
+
+            <img class="logo_img" src="img/Logo/logo_kockica.png" alt="Kockica logo">
+
+            <p class="footer_links">
+                <a href="#pocetna" class="link-1">Početna</a>
+
+                <a href="#home">O nama</a>
+
+                <a href="#proizvodi">Proizvodi</a>
+
+                <a href="#kontakt">Kontakt</a>
+            </p>
+
+            <p class="footer_ime_shopa">Kockica © 2020</p>
+        </div>
+
+        <div class="footer_centar">
+
+            <div>
+                <i class="fa fa-map-marker"> </i>
+                <p><span>Mala Kladuša bb</span> Bosna i Hercegovina </p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+387 61 925 302</p>
+            </div>
+
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank"> kockica126@gmail.com
+                    </a> </p>
+            </div>
+
+        </div>
+
+        <div class="footer_desno">
+
+            <p class="footer_o_nama">
+                <span>O shopu</span>
+                <span class="span1">Kockica je online shop koji se bavi proizvodnjom i prodajom unikatnih poklona, 3D
+                    led lampi, drvenih lustera, privjesaka, reklamnog materijala i još mnogo toga...
+                    Također, vršimo i usluge laserskog graviranja i rezanja. </span>
+            </p>
+
+            <div class="footer_ikone">
+
+                <a href="https://www.facebook.com/Kockica-106806544147200" target="_blank"> <i
+                        class="fab fa-facebook-square"></i></a>
+                <a href="#"> <i class="fab fa-instagram"></i></a>
+                
+
+            </div>
+            <a class="up_ikona"href="#pocetna"><i class="fas fa-arrow-up"></i></a>
+        </div>
+
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,863 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Roboto:wght@100&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  height: 100%;
+}
+main {
+  font-family: sans-serif;
+  margin: auto auto;
+  width: 80%;
+}
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check {
+  display: none;
+}
+nav {
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(0, 0, 0);
+
+  z-index: 5;
+  top: 0;
+  border-bottom: 1px solid #e75480;
+}
+.linkovi {
+  text-align: right;
+}
+.logo_slika {
+  width: 300px;
+  height: 100px;
+  float: left;
+  position: fixed;
+  object-fit: cover;
+  z-index: 7;
+  top: 0;
+}
+.wrapper {
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  margin-top: 12px;
+}
+#ikona {
+  display: none;
+  z-index: 10;
+  float: right;
+  margin-right: 2%;
+}
+a {
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 25px;
+  color: white;
+  font-weight: 700;
+}
+.linkovi a:hover {
+  color: rgba(14, 197, 243, 0.8);
+  letter-spacing: 1.5px;
+  transition: 0.5s;
+}
+.linkovi {
+  margin-right: 15px;
+}
+.img_link {
+  padding: 0;
+  margin: 0;
+}
+
+.home {
+  width: 100%;
+  height: 100vh;
+}
+#home {
+  padding-top: 150px;
+}
+
+#proizvodi {
+  padding-top: 150px;
+}
+#galerija {
+  padding-top: 150px;
+}
+section {
+  height: 100vh;
+}
+.home_slika {
+  width: 100%;
+  height: 100vh;
+  object-fit: fill;
+  position: relative;
+}
+/*O meni*/
+.podjela_lijevo_desno {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.tekst4 {
+  padding-top: 40px;
+}
+.novi_red {
+  padding-top: 40px;
+}
+.podjela_lijevo {
+  width: 40%;
+  text-align: justify;
+  font-size: 22px;
+}
+.podjela_lijevo h2 {
+  font-variant: small-caps;
+}
+.podjela_desno {
+  margin-top: 5%;
+
+  margin-right: 5%;
+  object-fit: fill;
+}
+.podjela_desno img {
+  width: 400px;
+  margin-left: 10%;
+  height: 500px;
+  box-shadow: 20px 0px 20px rgb(0 0 0 / 50%);
+}
+/*O meni*/
+.container2 {
+  position: relative;
+}
+.text1 {
+  padding-top: 4%;
+  text-align: center;
+  width: 100%;
+
+  font-variant: small-caps;
+  font-size: 90px;
+  font-weight: 700;
+  color: white;
+
+  letter-spacing: 6px;
+  text-shadow: 5px 5px 0 rgba(61, 60, 60, 0.8);
+}
+
+.container3 {
+  background-color: rgba(53, 31, 31, 0.5);
+
+  width: 100%;
+  height: 60%;
+
+  bottom: 11%;
+
+  position: absolute;
+}
+.buttonsdiv {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 6.5%;
+  left: -50px;
+  position: relative;
+}
+.shop_button {
+  width: 350px;
+  height: 80px;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  border: 2px solid;
+  border-color: white;
+}
+.shop_button_txt {
+  margin: auto auto;
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+
+  letter-spacing: 6px;
+}
+.shop_button:hover {
+  background-color: rgb(0, 0, 0, 0.5);
+}
+.cont {
+  height: 100px;
+
+  border: 1px solid black;
+}
+
+#galerija h1 {
+  font-size: 35px;
+  text-align: center;
+  width: 100%;
+
+  font-variant: small-caps;
+}
+
+.klijent {
+  display: flex;
+  width: 100%;
+  text-align: justify;
+  margin-top: 5%;
+  justify-content: space-between;
+}
+.klijent1 {
+  background-color: white;
+  height: 100%;
+  width: 280px;
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 50%);
+}
+.klijent2 {
+  background-color: white;
+  margin-left: 4%;
+  margin-right: 4%;
+  width: 280px;
+  height: 100%;
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 50%);
+}
+.klijent3 {
+  width: 280px;
+  background-color: white;
+  height: 100%;
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 50%);
+}
+.klijent1 p {
+  padding: 30px;
+}
+.klijent2 p {
+  padding: 30px;
+}
+.klijent3 p {
+  padding: 30px;
+}
+.klijent1 h3 {
+  text-align: center;
+}
+.klijent2 h3 {
+  text-align: center;
+}
+.klijent3 h3 {
+  text-align: center;
+}
+.smile {
+  margin-left: 120px;
+  margin-top: 10px;
+}
+.klijent1 img {
+  width: 70px;
+  height: 70px;
+  object-fit: scale-down;
+  margin-left: 37%;
+}
+.klijent2 img {
+  width: 70px;
+  height: 70px;
+  object-fit: scale-down;
+  margin-left: 37%;
+}
+.klijent3 img {
+  width: 70px;
+  height: 70px;
+  object-fit: scale-down;
+  margin-left: 37%;
+}
+/* css za footer */
+
+footer {
+  width: 100%;
+  display: inline-block;
+  background: #333;
+  min-height: 200px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  bottom: 0;
+  text-decoration: underline;
+}
+
+.footer_sve {
+  background: rgb(0, 0, 0);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
+}
+/*Proizvodi*/
+#proizvodi h1 {
+  text-align: center;
+  font-variant: small-caps;
+  font-size: 35px;
+}
+.product-container {
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 50%);
+  background-color: rgb(238, 230, 186);
+  padding: 0 0.1vw;
+  margin-top: 25px;
+  display: flex;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.scrollBtn1 {
+  position: absolute;
+  margin-top: 200px;
+  left: 3%;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  border: 3px solid black;
+  height: 50px;
+
+  width: 100px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.scrollBtn2 {
+  position: absolute;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 200px;
+  right: 3%;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  border: 3px solid black;
+  height: 50px;
+
+  width: 100px;
+}
+.scrollBtn1:hover {
+  color: red;
+  border: 1px solid rgb(73, 10, 10);
+}
+.scrollBtn2:hover {
+  color: red;
+  border: 1px solid rgb(73, 10, 10);
+}
+.product-card {
+  flex: 0 0 auto;
+  width: 250px;
+  height: 500px;
+  margin-right: 40px;
+  margin-top: 10px;
+}
+
+.product-image {
+  position: relative;
+
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+
+.productspace {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+.card-btn {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  width: 90%;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+  background: rgb(7, 7, 7);
+  color: seashell;
+  border-radius: 5px;
+  transition: 0.5s;
+  cursor: pointer;
+  opacity: 0;
+  font-size: 18px;
+}
+.product-card:hover .card-btn {
+  opacity: 1;
+}
+.card-btn:hover {
+  background: #ffffff;
+  color: black;
+}
+.misljenje {
+  line-height: 27px;
+  font-weight: 700;
+}
+.productname {
+  text-transform: uppercase;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.productdes {
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+  overflow: hidden;
+  opacity: 0.5;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 5px 0;
+}
+
+.price {
+  position: relative;
+  margin-left: 100px;
+
+  color: rgb(0, 0, 0);
+}
+
+.actual-price {
+  position: relative;
+  margin-left: 0px;
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+
+/*Proizvodi*/
+
+.footer_sve .footer_lijevo,
+.footer_sve .footer_centar,
+.footer_sve .footer_desno {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Footer lijevo */
+
+.footer_sve .footer_lijevo {
+  width: 40%;
+}
+
+/* logo kockice */
+
+.footer_sve .logo_img {
+  width: 400px;
+  height: 200px;
+  object-fit: contain;
+  position: relative;
+  bottom: 30px;
+}
+
+/* linkovi u footeru */
+
+.footer_sve .footer_links {
+  color: #ffffff;
+  margin: 20px 0 12px;
+  position: relative;
+  top: 20px;
+  left: 10px;
+}
+
+.footer_sve .footer_links a:hover {
+  color: aqua;
+}
+
+.footer_sve .footer_links a {
+  display: inline-block;
+  line-height: 1.8;
+  font-weight: 400;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer_sve .footer_ime_shopa {
+  color: aqua;
+  font-size: 14px;
+  font-weight: normal;
+  position: relative;
+  bottom: 90px;
+  left: 140px;
+}
+
+/* footer centar */
+
+.footer_sve .footer_centar {
+  width: 35%;
+}
+
+.footer_sve .footer_centar i {
+  background-color: #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer_sve .footer_centar i.fa-envelope {
+  font-size: 19px;
+  line-height: 38px;
+}
+
+.footer_sve .footer_centar p {
+  display: inline-block;
+  color: #ffffff;
+  font-weight: 400;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer_sve .footer_centar p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer_sve .footer_centar p a {
+  font-size: 18px;
+  color: lightseagreen;
+  text-decoration: none;
+  position: relative;
+  right: 25px;
+}
+
+.footer_sve .footer_links a:before {
+  content: "|";
+  font-weight: 300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer_sve .footer_links .link1:before {
+  content: none;
+}
+
+/* footer desno */
+
+.footer_sve .footer_desno {
+  width: 20%;
+}
+
+.footer_sve .footer_o_nama {
+  line-height: 20px;
+  color: aqua;
+  font-size: 15px;
+  font-weight: normal;
+  margin: 0;
+  position: relative;
+  bottom: 20px;
+}
+
+.footer_sve .footer_o_nama .span1 {
+  color: aqua;
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0;
+  position: relative;
+  bottom: 20px;
+  text-align: justify;
+}
+
+.footer_sve .footer_o_nama span {
+  display: block;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.footer_sve .footer_ikone {
+  margin-top: 25px;
+}
+
+.footer_sve .footer_ikone a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #33383b;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+.up_ikona i {
+  float: right;
+  width: 50px;
+  height: 30px;
+  text-align: center;
+
+  border-radius: 10px;
+}
+/*Responsive*/
+@media (max-width: 1000px) {
+  .home_slika {
+    object-fit: cover;
+  }
+}
+@media (max-width: 880px) {
+  .wrapper .linkovi a {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .logo_slika {
+    width: 200px;
+  }
+  .home_slika {
+    object-fit: cover;
+  }
+  .podjela_desno .img {
+    margin-left: 5%;
+  }
+  .podjela_desno .slika1 {
+    width: 300px;
+  }
+  .o_nama_tekst {
+    margin-bottom: 15%;
+  }
+  .novi_red {
+    margin-top: 75%;
+    width: 600px;
+  }
+  .home {
+    height: 100vw;
+  }
+  .proizvodi1 {
+    height: 70vh;
+  }
+  .klijent2 {
+    margin-right: 4%;
+    margin-left: 4%;
+  }
+  .logo_img {
+    display: none;
+  }
+  .footer_sve .footer_lijevo {
+    width: 100%;
+
+    display: block;
+    text-align: center;
+  }
+  .footer_sve .footer_links {
+    margin-bottom: 70px;
+  }
+  .footer_ime_shopa {
+    display: none;
+  }
+  .footer_sve .footer_centar {
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+    text-align: left;
+  }
+  .footer_sve .footer_desno {
+    display: block;
+    width: 100%;
+    margin-top: 40px;
+  }
+  .gal {
+    margin-top: 300px;
+  }
+}
+
+@media (max-width: 720px) {
+  .logo_slika {
+    display: none;
+  }
+  .home_slika {
+    object-fit: cover;
+  }
+  .wrapper .linkovi {
+    text-align: center;
+  }
+  .text1 {
+    text-align: left;
+
+    margin-left: 5%;
+  }
+  .buttonsdiv {
+    margin-top: 25px;
+    margin-left: 5%;
+  }
+  .podjela_desno .slika1 {
+    width: 100%;
+    align-content: center;
+    margin-left: 0;
+  }
+  .tekst4 {
+    width: 100%;
+  }
+  .podjela_lijevo {
+    width: 100%;
+  }
+  .novi_red {
+    margin-top: 5%;
+    width: 100%;
+  }
+  .home {
+    height: 150vw;
+  }
+  .podjela_lijevo_desno {
+    display: block;
+    height: 700px;
+  }
+  .proizvodi1 {
+    height: 120vw;
+  }
+  .gal {
+    height: 200vw;
+    margin-bottom: 10%;
+  }
+  .klijent {
+    flex-direction: column;
+    align-items: center;
+  }
+  .klijent2 {
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+  .text1 {
+    width: 80%;
+    font-size: 70px;
+    text-align: center;
+    margin-left: 10%;
+  }
+}
+@media (max-width: 615px) {
+  .home {
+    margin-bottom: 20%;
+  }
+  .proizvodi1 {
+    margin-top: 30%;
+  }
+}
+@media (max-width: 550px) {
+  .home {
+    margin-bottom: 400px;
+  }
+  .gal {
+    margin-top: 200px;
+    padding-bottom: 200px;
+  }
+  #galerija h1 {
+    margin-top: 200px;
+  }
+}
+@media (max-width: 540px) {
+  #proizvodi {
+    padding-top: 250px;
+  }
+
+  .logo_slika {
+    display: block;
+  }
+  .imgLink {
+    margin: 0;
+  }
+  .checkbtn {
+    display: block;
+    margin-top: 10px;
+  }
+  #check:checked ~ .wrapper .linkovi {
+    left: 0;
+  }
+  .linkovi {
+    position: fixed;
+    width: 100%;
+    height: 500px;
+    background: rgba(65, 50, 50, 0.9);
+    top: 100px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  .linkovi a {
+    color: white;
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+    font-size: 20px;
+  }
+  .proizvodi1 {
+    height: 70vh;
+  }
+  footer {
+    margin-top: 200px;
+  }
+  .footer_links {
+    text-align: left;
+  }
+  .text1 {
+    width: 80%;
+    font-size: 70px;
+    text-align: center;
+  }
+  .home {
+    height: 100vh;
+  }
+  .gal {
+    height: 100vh;
+    margin-top: 200px;
+    margin-bottom: 100px;
+  }
+}
+@media (max-width: 537px) {
+  .gal {
+    margin-bottom: 200px;
+  }
+}
+@media (max-width: 430px) {
+  .text1 {
+    width: 80%;
+    font-size: 50px;
+    text-align: center;
+  }
+  .shop_button {
+    width: 200px;
+  }
+  .home {
+    height: 100vh;
+    margin-bottom: 500px;
+  }
+  .gal {
+    height: 100vh;
+    margin-top: 300px;
+    margin-bottom: 300px;
+  }
+}
+@media (max-width: 320px) {
+  .text1 {
+    margin-left: 10%;
+    padding-left: 0;
+    font-size: 40px;
+  }
+  .shop_button {
+    margin-left: 10%;
+  }
+  #proizvodi h1 {
+    margin-top: 100px;
+  }
+}
